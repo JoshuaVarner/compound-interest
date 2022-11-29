@@ -1,0 +1,5 @@
+amount = int(input("Enter the dollar amount >>>"))
+rate = float(input("Enter the interest rate >>>"))
+days = int(input("Enter the number of days >>>"))
+x = amount*(1+(rate/100))**days
+print("$"+'{:,}'.format(x))
